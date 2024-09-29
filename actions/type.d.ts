@@ -18,6 +18,14 @@ export interface CarsData {
     engine: string
     horsepower: number
     mpg: string
+    engine: string,
+    horsepower: number,
+    mpg: string,
+    groundClearance: string,
+    power: string,
+    torque: string,
+    seatCapacity: number,
+    driveType: stirng
   }
   
   export interface Pagination {

@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center py-5 px-5 w-full lg:w-[60%] md:w-[80%] m-auto">
         {/* Logo Section */}
         <div className="flex items-center">
-          <span className="font-bold text-xl text-orange-500">Suzuki</span>
+          <span className="font-bold text-xl text-blue-500">Suzuki</span>
         </div>
 
         {/* Search Bar */}

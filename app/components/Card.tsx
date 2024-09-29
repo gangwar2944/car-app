@@ -1,4 +1,5 @@
 "use client";
+import { DollarSign } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation"; // Correct hook for navigation in Next.js
 import React from "react";
@@ -49,8 +50,17 @@ const Card = ({
             {title}
           </div>
 
-          <p className="text-gray-600 text-base mb-2">{content}</p>
-          <b className="text-gray-600 text-base mb-2">{price}</b>
+          <p
+            className="text-gray-600 text-base mb-2 line-clamp-2"
+            title={content} // Tooltip displays full content on hover
+          >
+            {content}
+          </p>
+
+          <b className="text-xl text-black flex items-center gap-1">
+            <DollarSign size={"1.2rem"} />
+            {price}
+          </b>
         </div>
 
         {/* Footer: Action Button */}
