@@ -1,0 +1,208 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "price": 24425,
+        "description": "The 2022 Toyota Camry is a comfortable and efficient midsize sedan.",
+        "specifications": {
+          "engine": "2.5L 4-cylinder",
+          "horsepower": 203,
+          "mpg": "28 city / 39 highway"
+        },
+        "images": [
+          "/images/cars/toyota-camry-2022-1.jpg",
+          "/images/cars/toyota-camry-2022-2.jpg",
+          "/images/cars/toyota-camry-2022-3.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2021,
+        "price": 24970,
+        "description": "The 2021 Honda Accord offers a spacious interior and impressive fuel efficiency.",
+        "specifications": {
+          "engine": "1.5L turbocharged 4-cylinder",
+          "horsepower": 192,
+          "mpg": "30 city / 38 highway"
+        },
+        "images": [
+          "/images/cars/honda-accord-2021-1.jpg",
+          "/images/cars/honda-accord-2021-2.jpg",
+          "/images/cars/honda-accord-2021-3.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2023,
+        "price": 27205,
+        "description": "The 2023 Ford Mustang combines performance with iconic styling.",
+        "specifications": {
+          "engine": "2.3L turbocharged 4-cylinder",
+          "horsepower": 310,
+          "mpg": "21 city / 32 highway"
+        },
+        "images": [
+          "/images/cars/ford-mustang-2023-1.jpg",
+          "/images/cars/ford-mustang-2023-2.jpg",
+          "/images/cars/ford-mustang-2023-3.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2022,
+        "price": 22900,
+        "description": "The 2022 Chevrolet Malibu is a stylish sedan with advanced safety features.",
+        "specifications": {
+          "engine": "1.5L turbocharged 4-cylinder",
+          "horsepower": 160,
+          "mpg": "29 city / 36 highway"
+        },
+        "images": [
+          "/images/cars/chevrolet-malibu-2022-1.jpg",
+          "/images/cars/chevrolet-malibu-2022-2.jpg",
+          "/images/cars/chevrolet-malibu-2022-3.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2021,
+        "price": 41100,
+        "description": "The 2021 BMW 3 Series offers a blend of luxury, technology, and performance.",
+        "specifications": {
+          "engine": "2.0L turbocharged 4-cylinder",
+          "horsepower": 255,
+          "mpg": "26 city / 36 highway"
+        },
+        "images": [
+          "/images/cars/bmw-3series-2021-1.jpg",
+          "/images/cars/bmw-3series-2021-2.jpg",
+          "/images/cars/bmw-3series-2021-3.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2022,
+        "price": 43500,
+        "description": "The 2022 Mercedes-Benz C-Class is a compact luxury sedan with cutting-edge technology.",
+        "specifications": {
+          "engine": "2.0L turbocharged 4-cylinder",
+          "horsepower": 255,
+          "mpg": "24 city / 35 highway"
+        },
+        "images": [
+          "/images/cars/mercedes-cclass-2022-1.jpg",
+          "/images/cars/mercedes-cclass-2022-2.jpg",
+          "/images/cars/mercedes-cclass-2022-3.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2021,
+        "price": 39900,
+        "description": "The 2021 Audi A4 blends performance and luxury in a compact package.",
+        "specifications": {
+          "engine": "2.0L turbocharged 4-cylinder",
+          "horsepower": 201,
+          "mpg": "24 city / 34 highway"
+        },
+        "images": [
+          "/images/cars/audi-a4-2021-1.jpg",
+          "/images/cars/audi-a4-2021-2.jpg",
+          "/images/cars/audi-a4-2021-3.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2022,
+        "price": 24900,
+        "description": "The 2022 Nissan Altima is a midsize sedan that offers both style and efficiency.",
+        "specifications": {
+          "engine": "2.5L 4-cylinder",
+          "horsepower": 188,
+          "mpg": "28 city / 39 highway"
+        },
+        "images": [
+          "/images/cars/nissan-altima-2022-1.jpg",
+          "/images/cars/nissan-altima-2022-2.jpg",
+          "/images/cars/nissan-altima-2022-3.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "make": "Hyundai",
+        "model": "Sonata",
+        "year": 2023,
+        "price": 24945,
+        "description": "The 2023 Hyundai Sonata is a well-rounded sedan with an attractive design.",
+        "specifications": {
+          "engine": "2.5L 4-cylinder",
+          "horsepower": 191,
+          "mpg": "28 city / 38 highway"
+        },
+        "images": [
+          "/images/cars/hyundai-sonata-2023-1.jpg",
+          "/images/cars/hyundai-sonata-2023-2.jpg",
+          "/images/cars/hyundai-sonata-2023-3.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "make": "Subaru",
+        "model": "Legacy",
+        "year": 2022,
+        "price": 22895,
+        "description": "The 2022 Subaru Legacy offers all-wheel drive and a comfortable interior.",
+        "specifications": {
+          "engine": "2.5L 4-cylinder",
+          "horsepower": 182,
+          "mpg": "27 city / 35 highway"
+        },
+        "images": [
+          "/images/cars/subaru-legacy-2022-1.jpg",
+          "/images/cars/subaru-legacy-2022-2.jpg",
+          "/images/cars/subaru-legacy-2022-3.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "make": "Subaru",
+        "model": "Legacy",
+        "year": 2022,
+        "price": 22895,
+        "description": "The 2022 Subaru Legacy offers all-wheel drive and a comfortable interior.",
+        "specifications": {
+          "engine": "2.5L 4-cylinder",
+          "horsepower": 182,
+          "mpg": "27 city / 35 highway"
+        },
+        "images": [
+          "/images/cars/subaru-legacy-2022-1.jpg",
+          "/images/cars/subaru-legacy-2022-2.jpg",
+          "/images/cars/subaru-legacy-2022-3.jpg"
+        ]
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "totalPages": 4,
+      "pageSize": 11
+    }
+  }
+  
