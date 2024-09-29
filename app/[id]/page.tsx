@@ -4,11 +4,16 @@ import CarDetails from "./_components/CarDetails";
 import { Car } from "@/actions/type";
 import { useEffect, useState } from "react";
 
-export default function Page({ params }) {
-  const [selectedCarData, setSelectedCarData] = useState<Car | null>(null);
+interface PageProps{
+    params:{
+        id:number
+    }
+}
+export default function Page({ params }:PageProps) {
+  const [selectedCarData, setSelectedCarData] = useState<Car | undefined>();
   
   useEffect(() => {
-    const fetchCarData = async (params) => {
+    const fetchCarData = async (params:{id:number}) => {
       if (params?.id) {
         const allCars = await getAllCars(); // Fetch all cars        
         const findById = allCars.cars.find(car => car.id === Number(params.id));         

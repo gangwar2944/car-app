@@ -1,14 +1,17 @@
 {
+  "homepage": "https://gangwar2944.github.io/car-app",
   "name": "suzuki-assigment",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",         
-    "build": "next build",       
-    "start": "next start", 
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "lucide-react": "^0.446.0",
